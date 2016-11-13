@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="240px" viewBox="0 0 320 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #222222;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Observe</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Observe">
+            <rect id="Rectangle" fill="#FFFFFF" x="76" y="63" width="167" height="129" rx="8"></rect>
+            <text id="#Observe" font-family="StencilStd, Stencil Std" font-size="24" font-weight="bold" fill="#9B9B9B">
+                <tspan x="17" y="40">#Observe</tspan>
+            </text>
+            <path d="M196,63 L83.9984954,63 C79.5847307,63 76,66.5801399 76,70.9964662 L76,138 L188.002562,138 C192.428126,138 196,134.419521 196,130.002775 L196,63 Z" id="Combined-Shape" fill="#000000"></path>
+        </g>
+    </g>
+</svg>

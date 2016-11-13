@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="240px" viewBox="0 0 320 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #222222;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Push</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Push">
+            <path d="M153,198 C186.137085,198 213,171.137085 213,138 C213,104.862915 186.137085,78 153,78 C119.862915,78 93,104.862915 93,138 C93,171.137085 119.862915,198 153,198 Z M153,194 C183.927946,194 209,168.927946 209,138 C209,107.072054 183.927946,82 153,82 C122.072054,82 97,107.072054 97,138 C97,168.927946 122.072054,194 153,194 Z" id="Combined-Shape" fill="#4A4A4A"></path>
+            <text id="#PUSH" font-family="StencilStd, Stencil Std" font-size="24" font-weight="bold" fill="#9B9B9B">
+                <tspan x="23.004" y="42">#PUSH</tspan>
+            </text>
+            <path d="M197,155 C230.137085,155 257,128.137085 257,95 C257,61.862915 230.137085,35 197,35 C163.862915,35 137,61.862915 137,95 C137,128.137085 163.862915,155 197,155 Z M197,151 C227.927946,151 253,125.927946 253,95 C253,64.072054 227.927946,39 197,39 C166.072054,39 141,64.072054 141,95 C141,125.927946 166.072054,151 197,151 Z" id="Combined-Shape" fill="#D8D8D8"></path>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(130.041631, 155.041631) rotate(45.000000) translate(-130.041631, -155.041631) " x="128.041631" y="123.041631" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(228.041631, 95.041631) rotate(45.000000) translate(-228.041631, -95.041631) " x="226.041631" y="63.0416306" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(233.041631, 119.041631) rotate(45.000000) translate(-233.041631, -119.041631) " x="231.041631" y="87.0416306" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(219.041631, 155.041631) rotate(45.000000) translate(-219.041631, -155.041631) " x="217.041631" y="123.041631" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(167.041631, 174.041631) rotate(45.000000) translate(-167.041631, -174.041631) " x="165.041631" y="142.041631" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(202.041631, 65.041631) rotate(45.000000) translate(-202.041631, -65.041631) " x="200.041631" y="33.0416306" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(118.041631, 108.041631) rotate(45.000000) translate(-118.041631, -108.041631) " x="116.041631" y="76.0416306" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(140.041631, 71.041631) rotate(45.000000) translate(-140.041631, -71.041631) " x="138.041631" y="39.0416306" width="4" height="64"></rect>
+            <rect id="Rectangle" fill="#D8D8D8" transform="translate(168.041631, 59.041631) rotate(45.000000) translate(-168.041631, -59.041631) " x="166.041631" y="27.0416306" width="4" height="64"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="320px" height="240px" viewBox="0 0 320 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #222222;">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>Perspective</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="38" y="54" width="246" height="158"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="246" height="158" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Perspective">
+            <text id="#PERSPEKTIVE" font-family="StencilStd, Stencil Std" font-size="24" font-weight="bold" fill="#9B9B9B">
+                <tspan x="16" y="38">#PERSPEKTIVE</tspan>
+            </text>
+            <use id="Rect-Inner" stroke="#222222" mask="url(#mask-2)" stroke-width="4" xlink:href="#path-1"></use>
+            <path d="M320,85 L161.5,131.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M286,53 L176.5,119.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M237.5,52.5 L166.5,122.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M35.5,54.5 L111.5,120.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M207,49 L148.5,131.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M151.5,53.5 L145.5,122.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M218,-17 L147.5,125.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M101,58 L133,130" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M131,60 L137.5,119.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M74,44 L126.5,127.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M272.5,148.5 L169.5,142.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M286,194 L175.5,149.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M251.5,213.5 L160.5,150.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M218,241 L146.5,149.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M169.5,211.5 L144.5,156.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M132,231 L132,152.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M119.5,211.5 L125.5,149.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M102.5,212.5 L119,159" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M60.5,211.5 L117.5,150.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M34.5,159.5 L113.5,141.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M2,106 L113.5,134.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M34.5,78.5 L126.5,134.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M37.5,210.5 L118.5,146.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+            <rect id="Rectangle-Outer" fill-opacity="0.4" fill="#000000" x="97" y="109" width="92" height="56"></rect>
+            <rect id="Rectangle-Outer" fill-opacity="0.3" fill="#000000" x="58" y="67" width="201" height="129"></rect>
+        </g>
+    </g>
+</svg>

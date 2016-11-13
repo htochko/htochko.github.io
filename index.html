@@ -1,26 +1,267 @@
 <!DOCTYPE html>
 <html>
  <head>
-  <title>Lentochko</title>
+     <title>Lentochka</title>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
+ <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="description" content="840 pictures to get by like">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+ <meta name="mobile-web-app-capable" content="yes">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="styles.css">
  </head>
- <body>
-  <section>
-  </section>
-  <section>
-   <h1>Welcome initiative pages progects</h1>  		
-   <form action="/charge" method="POST">
-  <script
-    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-    data-key="pk_test_uju7m4kmW17orcM3i29dIGgf"
-    data-amount="2000"
-    data-name="Stripe.com"
-    data-description="2 widgets"
-    data-image="/img/documentation/checkout/marketplace.png"
-    data-locale="auto">
-  </script>
-</form>
-  </section>
-  <section>
-  </section>	
+ <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+ <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+     <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+         </div>
+         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+             <h3></h3>
+         </div>
+         <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+         </div>
+         <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+             <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+             <!--<a href="#features" class="mdl-layout__tab">Projects</a>-->
+             <!--<a href="#details" class="mdl-layout__tab">Details</a>-->
+             <a href="#technology" class="mdl-layout__tab">Technology</a>
+             <a href="#blog" class="mdl-layout__tab">Blog</a>
+             <a href="#contact" class="mdl-layout__tab">Contact</a>
+             <!--<button class="mdl-button mdl-js-button mdl-button&#45;&#45;fab mdl-js-ripple-effect mdl-button&#45;&#45;colored mdl-shadow&#45;&#45;4dp mdl-color&#45;&#45;accent" id="add">-->
+                 <!--<i class="material-icons" role="presentation">add</i>-->
+                 <!--<span class="visuallyhidden">Add</span>-->
+             <!--</button>-->
+         </div>
+     </header>
+     <main class="mdl-layout__content">
+         <div class="mdl-layout__tab-panel is-active" id="overview">
+             <!--<section class="section&#45;&#45;center mdl-grid mdl-grid&#45;&#45;no-spacing mdl-shadow&#45;&#45;2dp">-->
+                 <!--<header class="section__play-btn mdl-cell mdl-cell&#45;&#45;3-col-desktop mdl-cell&#45;&#45;2-col-tablet mdl-cell&#45;&#45;4-col-phone mdl-color&#45;&#45;teal-100 mdl-color-text&#45;&#45;white">-->
+                     <!--<i class="material-icons">play_circle_filled</i>-->
+                 <!--</header>-->
+                 <!--<div class="mdl-card mdl-cell mdl-cell&#45;&#45;9-col-desktop mdl-cell&#45;&#45;6-col-tablet mdl-cell&#45;&#45;4-col-phone">-->
+
+                     <!--<div class="mdl-card__supporting-text">-->
+                         <!--<h4>This page initially set to be blank</h4>-->
+
+                         <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Nostrud in laboris labore nisi amet do dolor eu fugiat consectetur elit cillum esse.-->
+                     <!--</div>-->
+                     <!--<div class="mdl-card__actions">-->
+                         <!--<a href="#" class="mdl-button">Read our features</a>-->
+                     <!--</div>-->
+                 <!--</div>-->
+                 <!--<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button&#45;&#45;icon" id="btn1">-->
+                     <!--<i class="material-icons">more_vert</i>-->
+                 <!--</button>-->
+                 <!--<ul class="mdl-menu mdl-js-menu mdl-menu&#45;&#45;bottom-right" for="btn1">-->
+                     <!--<li class="mdl-menu__item">Lorem</li>-->
+                     <!--<li class="mdl-menu__item" disabled>Ipsum</li>-->
+                     <!--<li class="mdl-menu__item">Dolor</li>-->
+                 <!--</ul>-->
+             <!--</section>-->
+             <section class="section--center mdl-grid">
+                 <div class="mdl-grid" >
+                     <div class=" mdl-cell mdl-cell--6-col" style="align-content: center; text-align: center">
+                         <div class="pic-card mdl-card mdl-shadow--2dp">
+                          <div class="pic-card mdl-card__title-text">
+                             <img src="pics/push.svg">
+                          </div>
+                        </div>
+                     </div>
+                     <div class=" mdl-cell mdl-cell--6-col" style="align-content: center; text-align: center">
+                         <div class="pic-card mdl-card mdl-shadow--2dp">
+                             <div class="pic-card mdl-card__title-text">
+                                 <img src="pics/perspective.svg">
+                             </div>
+                         </div>
+                     </div>
+                     <div class=" mdl-cell mdl-cell--6-col ">
+                         <div class="pic-card mdl-card mdl-shadow--2dp">
+                             <div class="pic-card mdl-card__title-text">
+                                 <img src="pics/move.svg">
+                             </div>
+                         </div>
+                     </div>
+                     <div class=" mdl-cell mdl-cell--6-col ">
+                         <div class="pic-card mdl-card mdl-shadow--2dp">
+                             <div class="pic-card mdl-card__title-text">
+                                 <img src="pics/observe.svg">
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </section>
+
+             <!--<section class="section&#45;&#45;center mdl-grid mdl-grid&#45;&#45;no-spacing mdl-shadow&#45;&#45;2dp">-->
+                 <!--<div class="mdl-card mdl-cell mdl-cell&#45;&#45;12-col">-->
+                     <!--<div class="mdl-card__supporting-text mdl-grid mdl-grid&#45;&#45;no-spacing">-->
+                         <!--<h4 class="mdl-cell mdl-cell&#45;&#45;12-col">Projects</h4>-->
+                         <!--<div class="section__circle-container mdl-cell mdl-cell&#45;&#45;2-col mdl-cell&#45;&#45;1-col-phone">-->
+                             <!--<div class="section__circle-container__circle mdl-color&#45;&#45;primary"></div>-->
+                         <!--</div>-->
+                         <!--<div class="section__text mdl-cell mdl-cell&#45;&#45;10-col-desktop mdl-cell&#45;&#45;6-col-tablet mdl-cell&#45;&#45;3-col-phone">-->
+                             <!--<h5>My cosiness</h5>-->
+                             <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                         <!--</div>-->
+                         <!--<div class="section__circle-container mdl-cell mdl-cell&#45;&#45;2-col mdl-cell&#45;&#45;1-col-phone">-->
+                             <!--<div class="section__circle-container__circle mdl-color&#45;&#45;primary"></div>-->
+                         <!--</div>-->
+                         <!--<div class="section__text mdl-cell mdl-cell&#45;&#45;10-col-desktop mdl-cell&#45;&#45;6-col-tablet mdl-cell&#45;&#45;3-col-phone">-->
+                             <!--<h5>Obuchalki</h5>-->
+                             <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                         <!--</div>-->
+                         <!--<div class="section__circle-container mdl-cell mdl-cell&#45;&#45;2-col mdl-cell&#45;&#45;1-col-phone">-->
+                             <!--<div class="section__circle-container__circle mdl-color&#45;&#45;primary"></div>-->
+                         <!--</div>-->
+                         <!--<div class="section__text mdl-cell mdl-cell&#45;&#45;10-col-desktop mdl-cell&#45;&#45;6-col-tablet mdl-cell&#45;&#45;3-col-phone">-->
+                             <!--<h5>Drazdy</h5>-->
+                             <!--Dolore ex deserunt aute fugiat aute nulla ea sunt aliqua nisi cupidatat eu. Duis nulla tempor do aute et eiusmod velit exercitation nostrud quis <a href="#">proident minim</a>.-->
+                         <!--</div>-->
+                     <!--</div>-->
+                     <!--<div class="mdl-card__actions">-->
+                         <!--<a href="#" class="mdl-button">Read our features</a>-->
+                     <!--</div>-->
+                 <!--</div>-->
+                 <!--<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button&#45;&#45;icon" id="btn2">-->
+                     <!--<i class="material-icons">more_vert</i>-->
+                 <!--</button>-->
+                 <!--<ul class="mdl-menu mdl-js-menu mdl-menu&#45;&#45;bottom-right" for="btn2">-->
+                     <!--<li class="mdl-menu__item">Lorem</li>-->
+                     <!--<li class="mdl-menu__item" disabled>Ipsum</li>-->
+                     <!--<li class="mdl-menu__item">Dolor</li>-->
+                 <!--</ul>-->
+             <!--</section>-->
+
+             <!--<section class="section&#45;&#45;footer mdl-color&#45;&#45;white mdl-grid">-->
+                 <!--<div class="section__circle-container mdl-cell mdl-cell&#45;&#45;2-col mdl-cell&#45;&#45;1-col-phone">-->
+                     <!--<div class="section__circle-container__circle mdl-color&#45;&#45;accent section__circle&#45;&#45;big"></div>-->
+                 <!--</div>-->
+                 <!--<div class="section__text mdl-cell mdl-cell&#45;&#45;4-col-desktop mdl-cell&#45;&#45;6-col-tablet mdl-cell&#45;&#45;3-col-phone">-->
+                     <!--<h5>Lorem ipsum dolor sit amet</h5>-->
+                     <!--Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.-->
+                 <!--</div>-->
+                 <!--<div class="section__circle-container mdl-cell mdl-cell&#45;&#45;2-col mdl-cell&#45;&#45;1-col-phone">-->
+                     <!--<div class="section__circle-container__circle mdl-color&#45;&#45;accent section__circle&#45;&#45;big"></div>-->
+                 <!--</div>-->
+                 <!--<div class="section__text mdl-cell mdl-cell&#45;&#45;4-col-desktop mdl-cell&#45;&#45;6-col-tablet mdl-cell&#45;&#45;3-col-phone">-->
+                     <!--<h5>Lorem ipsum dolor sit amet</h5>-->
+                     <!--Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.-->
+                 <!--</div>-->
+             <!--</section>-->
+         </div>
+         <div class="mdl-layout__tab-panel" id="technology">
+             <section class="section--center mdl-grid mdl-grid--no-spacing">
+                 <div class="mdl-cell mdl-cell--12-col">
+                     <h4>Technology</h4><ul class="toc">
+                         <h4>Contents</h4>
+                            <a href="#db">Databases</a>
+                            <a href="#ss">Server side</a>
+                            <a href="#fe">Front-end</a>
+                            <a href="#tt">Task-tracking</a>
+                     </ul>
+
+                     <h5 id="db">Databases</h5>
+                     <ul>
+                         <li>MySql: Doctrine2, Propel</li>
+                         <li>Mongo: Mongoose</li>
+                     </ul>
+                     <h5 id="ss">Server side</h5>
+                     <ul>
+                         <li>PHP: Symphony, Laravel</li>
+                         <li>Java: Spring</li>
+                         <li>Python: Django</li>
+                     </ul>
+                     <h5 id="fe">Front-end</h5>
+                     <ul>
+                         <li>React.js</li>
+                         <li>Angular.js</li>
+                         <li>Zurb Foundation</li>
+                         <li>MDL</li>
+                     </ul>
+                 </div>
+             </section>
+         </div>
+         <div class="mdl-layout__tab-panel" id="contact">
+             <section class="section--center mdl-grid mdl-grid--no-spacing">
+                 <div class="mdl-cell mdl-cell--12-col">
+                      <h4>Contact</h4>
+                      <ul class="toc">
+                         <a href="https://github.com/htochko">GitHub</a>
+                         <a href="https://pl.linkedin.com/in/helen-tochko-8633aa52">LinkedIn</a>
+                         <a href="https://www.behance.net/lentochko">Behance</a>
+                     </ul>
+                 </div>
+             </section>
+         </div>
+         <div class="mdl-layout__tab-panel" id="blog">
+             <section class="section--center mdl-grid mdl-grid--no-spacing">
+                 <div class="mdl-cell mdl-cell--12-col">
+                     <h4>Projects</h4>
+                     <p>Keep calm and wait when information about projects will be available</p>
+                 </div>
+             </section>
+         </div>
+         <div class="mdl-layout__tab-panel" id="about">
+             <section class="section--center mdl-grid mdl-grid--no-spacing">
+                 <div class="mdl-cell mdl-cell--12-col">
+                     <h4>Projects</h4>
+                     <p>Keep calm and wait when record in blog will appear</p>
+                 </div>
+             </section>
+         </div>
+         <footer class="mdl-mega-footer">
+             <div class="mdl-mega-footer--middle-section">
+                 <div class="mdl-mega-footer--drop-down-section">
+                     <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                     <h1 class="mdl-mega-footer--heading">About</h1>
+                     <ul class="mdl-mega-footer--link-list">
+                     <li><a href="#about">Projects</a></li>
+                     </ul>
+                 </div>
+                 <div class="mdl-mega-footer--drop-down-section">
+                     <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                     <h1 class="mdl-mega-footer--heading">Technologies</h1>
+                     <ul class="mdl-mega-footer--link-list">
+                         <li><a href="#technology">Databases</a></li>
+                         <li><a href="#technology">Server side</a></li>
+                         <li><a href="#technology">Front-end</a></li>
+                         <li><a href="#technology">Task-tracking</a></li>
+                     </ul>
+                 </div>
+                 <div class="mdl-mega-footer--drop-down-section">
+                     <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                     <h1 class="mdl-mega-footer--heading">Graphics & Modeling</h1>
+                     <ul class="mdl-mega-footer--link-list">
+                         <li><a href="#">CAD</a></li>
+                         <li><a href="#">Vector graphics</a></li>
+                         <li><a href="#">Raster graphics</a></li>
+                     </ul>
+                 </div>
+                 <div class="mdl-mega-footer--drop-down-section">
+                     <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked>
+                     <h1 class="mdl-mega-footer--heading">Contact</h1>
+                     <ul class="mdl-mega-footer--link-list">
+                         <li><a href="https://github.com/htochko">GitHub</a></li>
+                         <li><a href="https://pl.linkedin.com/in/helen-tochko-8633aa52">LinkedIn</a></li>
+                         <li><a href="https://www.behance.net/lentochko">Behance</a></li>
+                     </ul>
+                 </div>
+             </div>
+             <div class="mdl-mega-footer--bottom-section">
+                 <div class="mdl-logo">
+                     &copy; 2009-2016
+                 </div>
+                 <ul class="mdl-mega-footer--link-list">
+                     <!--<li><a href="https://developers.google.com/web/starter-kit/">Web Starter Kit</a></li>-->
+                     <!--<li><a href="#">Help</a></li>-->
+                     <!--<li><a href="#">Privacy and Terms</a></li>-->
+                 </ul>
+             </div>
+         </footer>
+     </main>
+ </div>
  </body>
 </html>
