@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2mm" height="3.6mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 1.52 2.73">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#000000;stroke-width:0.1;stroke-miterlimit:2.5}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+   <path class="fil0 str0" d="M0.04 0.04l1.44 0 0 1.25 -1.44 0 0 -1.25z"/>
+   <path class="fil0 str0" d="M0.76 0.61l0 0c0.4,0 0.72,0.32 0.72,0.72l0 0.64c0,0.4 -0.32,0.72 -0.72,0.72l-0 0c-0.4,0 -0.72,-0.32 -0.72,-0.72l0 -0.64c0,-0.4 0.32,-0.72 0.72,-0.72z"/>
+   <path class="fil0 str0" d="M0.04 0.04l1.44 0 0 0.57 -1.44 0 0 -0.57z"/>
+ </g>
+</svg>
