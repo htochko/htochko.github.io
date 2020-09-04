@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="5mm" height="6.7mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 10.07 13.63">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.2;stroke-miterlimit:2.5}
+    .fil1 {fill:none}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="door_120">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <rect class="fil0 str0" transform="matrix(2.64845E-014 1 1 -2.64845E-014 0.0778194 0.610096)" width="0.18" height="9.37"/>
+  <rect class="fil0 str0" transform="matrix(1.26337E-014 1 0.47702 -2.64845E-014 6.37236 12.8424)" width="0.18" height="6.31"/>
+  <rect class="fil0 str0" transform="matrix(2.64845E-014 1 1 -2.64845E-014 9.3806 13.0201)" width="0.53" height="0.54"/>
+  <rect class="fil0 str0" transform="matrix(2.64845E-014 1 1 -2.64845E-014 9.44678 0.0778198)" width="0.53" height="0.54"/>
+  <path class="fil1 str0" d="M0.08 0.61c0,5.06 4.1,9.16 9.16,9.16"/>
+  <path class="fil1 str0" d="M6.37 12.84c0,-1.7 1.38,-3.07 3.07,-3.07"/>
+ </g>
+</svg>
