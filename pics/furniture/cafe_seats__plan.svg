@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="9.6537mm" height="7.2455mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 3.62 2.72"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.1;stroke-miterlimit:2.5}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+  <g id="Cafe_seats_p">
+   <rect class="fil0 str0" x="1.09" y="0.02" width="1.4" height="2.68"/>
+   <g>
+    <rect class="fil0 str0" x="0.02" y="1.54" width="0.95" height="0.96"/>
+    <rect class="fil0 str0" x="0.02" y="1.54" width="0.85" height="0.1"/>
+    <rect class="fil0 str0" x="0.02" y="2.4" width="0.85" height="0.11"/>
+    <rect class="fil0 str0" x="0.02" y="1.64" width="0.15" height="0.76"/>
+   </g>
+   <g>
+    <rect class="fil0 str0" x="0.02" y="0.22" width="0.95" height="0.96"/>
+    <rect class="fil0 str0" x="0.02" y="0.22" width="0.85" height="0.1"/>
+    <rect class="fil0 str0" x="0.02" y="1.07" width="0.85" height="0.11"/>
+    <rect class="fil0 str0" x="0.02" y="0.32" width="0.15" height="0.76"/>
+   </g>
+   <g>
+    <rect class="fil0 str0" x="2.66" y="0.2" width="0.95" height="0.96"/>
+    <rect class="fil0 str0" x="2.76" y="0.2" width="0.85" height="0.1"/>
+    <rect class="fil0 str0" x="2.76" y="1.05" width="0.85" height="0.11"/>
+    <rect class="fil0 str0" x="3.46" y="0.3" width="0.15" height="0.76"/>
+   </g>
+   <g>
+    <rect class="fil0 str0" x="2.66" y="1.54" width="0.95" height="0.96"/>
+    <rect class="fil0 str0" x="2.76" y="1.54" width="0.85" height="0.1"/>
+    <rect class="fil0 str0" x="2.76" y="2.4" width="0.85" height="0.11"/>
+    <rect class="fil0 str0" x="3.46" y="1.64" width="0.15" height="0.76"/>
+   </g>
+  </g>
+</svg>
