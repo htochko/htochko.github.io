@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="4.2mm" height="4.24mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.82 0.83">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.1;stroke-miterlimit:2.5}
+    .str1 {stroke:black;stroke-width:0.1;stroke-miterlimit:2.5}
+    .fil1 {fill:none}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+  <g id="shower_plan">
+   <rect class="fil0 str0" x="0.01" y="0.01" width="0.8" height="0.81"/>
+   <rect class="fil0 str1" x="0.05" y="0.05" width="0.71" height="0.73" rx="0.04" ry="0.04"/>
+   <circle class="fil0 str1" cx="0.69" cy="0.12" r="0.03"/>
+   <path class="fil1 str1" d="M0.65 0.17l-0.56 0.57"/>
+ </g>
+</svg>
