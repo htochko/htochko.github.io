@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.5738mm" height="4.2011mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.47 0.55">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#373535;stroke-width:0.1;stroke-miterlimit:2.5}
+    .fil0 {fill:none}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="kitchen_sink_plan">
+   <path class="fil0 str0" d="M0.46 0.01l0 0.54 -0.46 0 0 -0.54 0.46 0z"/>
+   <path class="fil0 str0" d="M0.37 0.07l0 0.16c0,0.01 -0.01,0.02 -0.03,0.02l-0.27 0c-0.02,0 -0.03,-0.01 -0.03,-0.02l0 -0.16c0,-0.01 0.01,-0.02 0.03,-0.02l0.27 0c0.02,0 0.03,0.01 0.03,0.02z"/>
+   <path class="fil0 str0" d="M0.37 0.32l0 0.19"/>
+   <path class="fil0 str0" d="M0.33 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.29 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.25 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.21 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.18 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.14 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.1 0.32c0,0.06 0,0.12 0,0.19"/>
+   <path class="fil0 str0" d="M0.06 0.32l0 0.19"/>
+   <path class="fil1 str0" d="M0.43 0.14l0 0.03 -0.11 0 0 -0.03 0.11 0z"/>
+ </g>
+</svg>

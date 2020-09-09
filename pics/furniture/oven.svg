@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.7241mm" height="4.1343mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.53 0.59">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:black;stroke-width:0.1;stroke-miterlimit:2.5}
+    .str0 {stroke:black;stroke-width:0.1;stroke-miterlimit:2.5}
+    .fil0 {fill:none}
+    .fil1 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="oven_plan">
+   <rect class="fil0 str0" x="0.01" y="0.01" width="0.52" height="0.58"/>
+   <rect class="fil0 str1" x="0.04" y="0.04" width="0.45" height="0.52" rx="0.04" ry="0.03"/>
+   <circle class="fil1 str1" cx="0.36" cy="0.42" r="0.07"/>
+   <circle class="fil1 str1" cx="0.17" cy="0.42" r="0.07"/>
+   <circle class="fil1 str1" cx="0.17" cy="0.18" r="0.07"/>
+   <circle class="fil1 str1" cx="0.36" cy="0.18" r="0.07"/>
+ </g>
+</svg>
