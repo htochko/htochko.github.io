@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="3.6754mm" height="2.7227mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 0.58 0.43"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.1;stroke-miterlimit:2}
+    .fil1 {fill:none}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+  <g id="coffee_machine">
+   <rect class="fil0 str0" x="0.01" y="0.01" width="0.57" height="0.42" rx="0.06" ry="0.03"/>
+   <rect class="fil1 str0" x="0.01" y="0.01" width="0.56" height="0.42" rx="0.26" ry="0.13"/>
+   <rect class="fil1 str0" x="0.14" y="0.19" width="0.32" height="0.2" rx="0.08" ry="0.03"/>
+   <path class="fil1 str0" d="M0.02 0.16l0.56 0"/>
+   <circle class="fil0 str0" transform="matrix(-1.03181E-013 -1.29786E+000 -1.28783E+000 1.03984E-013 0.39099 0.0970297)" r="0.02"/>
+   <circle class="fil0 str0" transform="matrix(-1.03181E-013 -1.29786E+000 -1.28783E+000 1.03984E-013 0.19812 0.0970138)" r="0.02"/>
+   <path class="fil1 str0" d="M0.2 0.13l0 0.03"/>
+   <path class="fil1 str0" d="M0.39 0.13l-0 0.03"/>
+ </g>
+</svg>
