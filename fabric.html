@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Future fabric</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+    <style>
+        a-scene {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<section id="header">
+
+
+<section/>
+<section class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+
+        <div class="mdc-layout-grid__cell--span-3-desktop">
+            Description
+        </div>
+        <div class="mdc-layout-grid__cell--span-9-desktop">
+        <a-scene embedded>
+            <a-asset-item id="site_plan" src="pics/mpzp551.jpg"></a-asset-item>
+            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+            <!--<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>-->
+            <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+            <a-plane position="0 0 -4"
+                     rotation="-90 0 0" width="20" height="20" src="site_plan"></a-plane>
+            <a-sky color="#ECECEC"></a-sky>
+        </a-scene>
+    </div>
+    </div>
+</section>
+</body>
+</html>
