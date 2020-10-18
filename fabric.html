@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Future fabric</title>
-    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-svg-extruder@1.0.0/dist/index.min.js"></script>
     <style>
         a-scene {
             height: 600px;
@@ -14,30 +16,62 @@
     </style>
 </head>
 <body>
-<section id="header">
+<section id="header"><section/>
+    <section class="mdc-layout-grid">
+        <div class="mdc-layout-grid__inner">
+            <div class="mdc-layout-grid__cell--span-3-desktop">
+                Description
+            </div>
+            <div class="mdc-layout-grid__cell--span-9-desktop">
+<a-scene embedded>
+    <a-asset-item id="site_plan" src="pics/551.png"></a-asset-item>
+    <a-camera wasd-controls-enabled="true"
+              position="0 3.6 0"
+              look-controls
+              cursor-visible="true"
+              cursor-scale="2"
+              cursor-color="#0095DD"
+              cursor-opacity="0.5">
+        >
+        <a-text position="-0.9 0.8 -1" value="Welcome Future Fabric" line-height="0.1" width="2" color="#333"></a-text>
+    </a-camera>
 
 
-<section/>
-<section class="mdc-layout-grid">
-    <div class="mdc-layout-grid__inner">
 
-        <div class="mdc-layout-grid__cell--span-3-desktop">
-            Description
-        </div>
-        <div class="mdc-layout-grid__cell--span-9-desktop">
-        <a-scene embedded>
-            <a-asset-item id="site_plan" src="pics/mpzp551.png"></a-asset-item>
-            <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
-            <!--<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>-->
-            <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
-            <a-plane position="0 0 -4"
-                     rotation="-90 0 0"
-                     width="20" height="20"
-                     src="site_plan"></a-plane>
-            <a-sky color="#ECECEC"></a-sky>
-        </a-scene>
-    </div>
-    </div>
+
+
+
+    <a-box shadow="receive:true" position="-2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true"
+           position="0 0.5 -5"
+           depth="4" height="6"
+           width="0.05"
+           rotation="90 0 90"
+           material="color: #FFFFFF; roughness: 0.1; metalness: 1;"
+
+    >
+    </a-box>
+
+    <a-box shadow="receive:true" position="3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="-3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+
+    <a-box shadow="receive:true" position="-6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFffFF"></a-box>
+    <a-box shadow="receive:true" position="6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFff"></a-box>
+
+
+    <a-sphere position="0 0 0" radius="0.5" color="#EF2D5E"></a-sphere>
+
+
+    <a-sky color="#d2f2fc"></a-sky>
+    <a-plane shadow="receive:true"
+             position="0 0.5 -3"
+             rotation="-90 0 0"
+             width="148.5" height="210"
+             src="#site_plan"></a-plane>
+</a-scene>
+            </div>
+</div>
 </section>
 </body>
 </html>
