@@ -19,14 +19,14 @@
 <section id="header"><section/>
     <section class="mdc-layout-grid">
         <div class="mdc-layout-grid__inner">
-            <div class="mdc-layout-grid__cell--span-3-desktop">
+            <div class="mdc-layout-grid__cell--span-3">
                 Description
             </div>
-            <div class="mdc-layout-grid__cell--span-9-desktop">
+            <div class="mdc-layout-grid__cell--span-9">
 <a-scene embedded>
     <a-asset-item id="site_plan" src="pics/551.png"></a-asset-item>
     <a-camera wasd-controls-enabled="true"
-              position="0 3.6 0"
+              position="0 25 50"
               look-controls
               cursor-visible="true"
               cursor-scale="2"
@@ -35,26 +35,20 @@
         >
         <a-text position="-0.9 0.8 -1" value="Welcome Future Fabric" line-height="0.1" width="2" color="#333"></a-text>
     </a-camera>
-
-
-
-
-
-
     <a-box shadow="receive:true" position="-2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
-    <a-box shadow="receive:true" position="2 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="2 0.5 -4" depth="5.6" height="7" width="0.05" rotation="0 0 0" color="#FFFFFF"></a-box>
     <a-box shadow="receive:true"
-           position="0 0.5 -5"
-           depth="4" height="6"
-           width="0.05"
+           position="-2.5 0 -25"
+           depth="6" height="6"
+           width="0.25"
            rotation="90 0 90"
-           material="color: #FFFFFF; roughness: 0.1; metalness: 1;"
+           material="color:#FF00FF; roughness: 0.1;"
 
     >
     </a-box>
+    <a-cylinder position="-4 0 -11" radius="1.5" height="18" color="#FFCCFF"></a-cylinder>
 
-    <a-box shadow="receive:true" position="3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
-    <a-box shadow="receive:true" position="-3 0.5 -5" depth="4" height="6" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
+    <a-box shadow="receive:true" position="3 0.5 -5" depth="2" height="3" width="0.05" rotation="90 0 90" color="#FFFFFF"></a-box>
 
     <a-box shadow="receive:true" position="-6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFffFF"></a-box>
     <a-box shadow="receive:true" position="6 0.5 -4" depth="2" height="4" width="0.05" rotation="0 0 0" color="#FFFFff"></a-box>
@@ -67,7 +61,7 @@
     <a-plane shadow="receive:true"
              position="0 0.5 -3"
              rotation="-90 0 0"
-             width="148.5" height="210"
+             width="210" height="297"
              src="#site_plan"></a-plane>
 </a-scene>
             </div>
