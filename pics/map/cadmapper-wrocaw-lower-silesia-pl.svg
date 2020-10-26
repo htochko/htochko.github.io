@@ -351,4 +351,5 @@
     <polyline fill="none" stroke="black" stroke-width="1" points="0.1212,17.0964 16.2490,15.9043 30.0000,13.9239 35.5964,13.1180 40.9545,11.5433 "/>
     <polyline fill="none" stroke="black" stroke-width="1" points="0.0375,14.0355 3.2577,13.6481 9.5525,12.4036 "/>
   </g>
+  <g id="hidden"></g>
 </svg>
