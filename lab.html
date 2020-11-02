@@ -32,32 +32,35 @@
     cube1.position.set(2, 2, 1);
 
     // add polygon
-//    const heartShape = new THREE.Shape();
-//    heartShape.moveTo( 25, 25 );
-//    heartShape.bezierCurveTo( 25, 25, 20, 0, 0, 0 );
-//    heartShape.bezierCurveTo( 30, 0, 30, 35,30,35 );
-//    heartShape.bezierCurveTo( 30, 55, 10, 77, 25, 95 );
-//    heartShape.bezierCurveTo( 60, 77, 80, 55, 80, 35 );
-//    heartShape.bezierCurveTo( 80, 35, 80, 0, 50, 0 );
-//    heartShape.bezierCurveTo( 35, 0, 25, 25, 25, 25 );
-//    const extruded = THREE.ExtrudeBufferGeometry(heartShape,
-//        { steps: 5,
-//        depth: 1.0,
-//        bevelEnabled: true,
-//        bevelThickness: 1,
-//        bevelSize: 1,
-//        bevelSegments: 2});
-//
-//    const mesh = new THREE.Mesh( extruded, new THREE.MeshPhongMaterial() );
-//    scene.add(mesh);
+    const heartShape = new THREE.Shape();
+    heartShape.moveTo( 2, 2 );
+    heartShape.lineTo( 2, 2 );
+    heartShape.lineTo( 2, 4 );
+    heartShape.lineTo(4, 4);
+    heartShape.lineTo( 4, 3 );
+    heartShape.lineTo( 3, 3 );
+    heartShape.lineTo( 3, 2 );
+    const extruded = new THREE.ExtrudeBufferGeometry(heartShape,
+        { steps: 5,
+        depth: 1.0,
+        bevelEnabled: true,
+        bevelThickness: 1,
+        bevelSize: 1,
+        bevelSegments: 2});
+
+    const mesh = new THREE.Mesh( extruded, new THREE.MeshBasicMaterial({ color: 0xffffff }));
+    mesh.position.set = (-2, -2, -2);
+    scene.add(mesh);
 
 
 
-    camera.position.z = 5;
+    camera.position.z = 9;
     function animate() {
         requestAnimationFrame( animate );
         cube.rotation.x += 0.01;
         cube.rotation.y += 0.01;
+        mesh.rotation.z += 0.01;
+        mesh.rotation.y += 0.01;
         renderer.render( scene, camera );
     }
     animate();
