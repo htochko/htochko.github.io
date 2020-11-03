@@ -17,6 +17,7 @@
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize( window.innerWidth, window.innerHeight );
     document.body.appendChild( renderer.domElement );
+    window.addEventListener( 'resize', onResize, false);
 
     // cube creating
     const geometry = new THREE.BoxGeometry();
@@ -64,6 +65,13 @@
         renderer.render( scene, camera );
     }
     animate();
+    function onResize(){
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+    }
+
+
 </script>
 </body>
 
