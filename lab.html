@@ -57,6 +57,48 @@
     mesh.position.set = (-2, -2, -2);
     scene.add(mesh);
 
+    // add wheel
+    const options = {teeth: 16, depth: 2, radius: 8};
+    const shape =  new THREE.Shape();
+    const toothAngle = (Math.PI*2)/options.theeth;
+    const outerRadius = options.radius;
+    const innerRadius = options.radius - options.depth;
+    shape.moveTo( innerRadius, 0);
+    for (let  i = 0; i< options.teeth; i++) {
+        const center = toothAngle * (i + 0.5);
+        let theta = center - toothAngle / 2 + 0.05;
+        shape.lineTo(Math.cos(theta) * innerRadius, Math.sin(theta) * innerRadius);
+        theta = center - toothAngle / 2 + 0.15;
+        shape.lineTo(Math.cos(theta) * outerRadius, Math.sin(theta) * outerRadius);
+        theta = center - toothAngle / 2 - 0.15;
+        shape.lineTo(Math.cos(theta) * outerRadius, Math.sin(theta) * outerRadius);
+        theta = center - toothAngle / 2 - 0.05;
+        shape.lineTo(Math.cos(theta) * innerRadius, Math.sin(theta) * innerRadius);
+    }
+        const extrudeSettings = {
+            steps: 1,
+            depth: 3,
+            bevelEnabled: true,
+            bevelThickness: 0.3,
+            bevelSize: 0.3,
+            bevelOffset: 0.3,
+            bevelSegments: 1
+        };
+        const wheelMesh = new THREE.ExtrudeGeometry(shape, extrudeSettings);
+
+        const  cogMat = new THREE.MeshStandardMaterial(
+                {
+                    color: 0xffffff,
+                    envMap: envMap,
+                    roughness: 0.2,
+                    metalness: 0.8
+                }
+        )
+
+        const cog = new THREE.Mesh(wheelMesh, cogMat);
+        cog.position.set(1,1,1);
+        scene.add(cog);
+
 
 
     camera.position.z = 9;
