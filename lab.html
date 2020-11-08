@@ -14,7 +14,8 @@
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
     const assetPath = ('./pics/');
-    const envMap = new THREE.CubeTextureLoader().setPath(assetPath).load([ 'side.gif','side.gif','top.gif','bottom.gif', 'side.gif','side.gif'])
+
+    const envMap = new THREE.CubeTextureLoader().setPath(assetPath).load([ 'side.gif','side.gif','top.gif','fabric.gif', 'side.gif','side.gif'])
 
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize( window.innerWidth, window.innerHeight );
