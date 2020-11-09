@@ -100,7 +100,29 @@
         cog.position.set(1,1,1);
         scene.add(cog);
 
+        const loader = new THREE.FontLoader();
+        const font = loader.load( 'fonts/helvetiker_regular.typeface.json' );
 
+        const geometryT = new THREE.TextGeometry( 'Welcome three.js World!', {
+            font: font,
+            size: 80,
+            height: 5,
+            curveSegments: 12,
+            bevelEnabled: false,
+            bevelThickness: 10,
+            bevelSize: 8,
+            bevelOffset: 0,
+            bevelSegments: 5
+        } );
+
+    geometryT.computeBoundingBox();
+    geometryT.computeVertexNormals();
+
+    const triangle = new THREE.Triangle();
+    textGeo = new THREE.BufferGeometry().fromGeometry( geometryT );
+    const textMesh = new THREE.Mesh(textGeo, cogMat);
+    textMesh.position.set(2,2,2);
+    scene.add(textMesh);
 
     camera.position.z = 9;
     function animate() {
