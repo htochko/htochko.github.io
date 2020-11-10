@@ -85,6 +85,15 @@
             bevelOffset: 0.3,
             bevelSegments: 1
         };
+    const extrudeSettingsText = {
+        steps: 1,
+        depth: 0.03,
+        bevelEnabled: true,
+        bevelThickness: 0.03,
+        bevelSize: 0.03,
+        bevelOffset: 0.03,
+        bevelSegments: 1
+    };
         const wheelMesh = new THREE.ExtrudeGeometry(shape, extrudeSettings);
 
         const  cogMat = new THREE.MeshStandardMaterial(
@@ -99,30 +108,16 @@
         const cog = new THREE.Mesh(wheelMesh, cogMat);
         cog.position.set(1,1,1);
         scene.add(cog);
+        let geometryT = null;
 
         const loader = new THREE.FontLoader();
-        const font = loader.load( 'fonts/helvetiker_regular.typeface.json' );
-
-        const geometryT = new THREE.TextGeometry( 'Welcome three.js World!', {
-            font: font,
-            size: 80,
-            height: 5,
-            curveSegments: 12,
-            bevelEnabled: false,
-            bevelThickness: 10,
-            bevelSize: 8,
-            bevelOffset: 0,
-            bevelSegments: 5
-        } );
-
-    geometryT.computeBoundingBox();
-    geometryT.computeVertexNormals();
-
-    const triangle = new THREE.Triangle();
-    textGeo = new THREE.BufferGeometry().fromGeometry( geometryT );
-    const textMesh = new THREE.Mesh(textGeo, cogMat);
-    textMesh.position.set(2,2,2);
-    scene.add(textMesh);
+        const font = loader.load( 'fonts/helvetiker_regular.typeface.json', function (json){
+            let shapes = json.generateShapes( "Welcome geometry planet", 1, 0.2 );
+            const textExtrude = new THREE.ExtrudeGeometry(shapes, extrudeSettingsText);
+            const textMesh1 = new THREE.Mesh(textExtrude, cogMat);
+            textMesh1.position.set(-12,-2,2);
+            scene.add(textMesh1);
+        });
 
     camera.position.z = 9;
     function animate() {
