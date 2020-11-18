@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <style>
+        .boost {
+            background-color: #cccccc;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+ <div class="boost"><video id="video"  width="400px" height="300px"></video></div>
+</body>
+<script>
+    (function () {
+        var video = document.getElementById('video'),
+                vendorUrl = window.URL || window.webkitURL;
+        navigator.getMedia = navigator.getUserMedia ||
+                             navigator.webkitGetUserMedia ||
+                             navigator.mozGetUserMedia ||
+                             navigator.mozGetUserMedia;
+        navigator.getMedia({
+            video: true,
+            audio: false
+        }, function (stream) {
+              video.src = vendorUrl.createObjectURL(stream);
+            video.play();
+            console.log(stream);
+        }, function (error) {
+            
+        })
+
+
+    })();
+
+</script>
+</html>
