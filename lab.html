@@ -58,6 +58,36 @@
     mesh.position.set = (-2, -2, -2);
     scene.add(mesh);
 
+    //
+    // add polygon
+    const extraShape = new THREE.Shape();
+    extraShape.moveTo( 0, 0 );
+    extraShape.lineTo( 2, 0 );
+    extraShape.lineTo( 2, 2 );
+    extraShape.lineTo(4, 2);
+    extraShape.lineTo( 4, 0 );
+    extraShape.lineTo( 6, 0 );
+    extraShape.lineTo( 6, -2 );
+    extraShape.lineTo(4, -2);
+    extraShape.lineTo(4, -4);
+    extraShape.lineTo(2, -4);
+    extraShape.lineTo(2, -2);
+    extraShape.lineTo(0, -2);
+    extraShape.lineTo(0, -2);
+
+
+    const extraExtruded = new THREE.ExtrudeBufferGeometry(extraShape,
+            {   steps: 5,
+                depth: 1.0,
+                bevelEnabled: true,
+                bevelThickness: 1,
+                bevelSize: 1,
+                bevelSegments: 2});
+
+    const extraMesh = new THREE.Mesh( extraExtruded, new THREE.MeshBasicMaterial({ color: 0x000000 }));
+    mesh.position.set = (2, 6, 2);
+    scene.add(extraMesh);
+
     // add wheel
     const options = {teeth: 16, depth: 2, radius: 8};
     const shape =  new THREE.Shape();
@@ -120,6 +150,7 @@
         });
 
     camera.position.z = 9;
+
     function animate() {
         requestAnimationFrame( animate );
         cube.rotation.x += 0.01;
