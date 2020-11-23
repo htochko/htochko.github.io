@@ -16,7 +16,7 @@
             right: 20px;
             bottom: 20px;
             color: #ffffff;
-            background: #0000aa;
+            background: #000000;
             font-size: 30px;
             text-align: center;
             line-height: 45px;
@@ -41,7 +41,7 @@ function init(){
     clock = new THREE.Clock();
 
     scene = new THREE.Scene();
-    let col = 0x605050;
+    let col = 0xcccccc;
     scene = new THREE.Scene();
     scene.background = new THREE.Color( col );
     scene.fog = new THREE.Fog( col, 10, 100 );
@@ -50,7 +50,7 @@ function init(){
     camera.position.set(0, 4, 7);
     camera.lookAt(0,1.5,0);
 
-    const ambient = new THREE.HemisphereLight(0xffffbb, 0x080820);
+    const ambient = new THREE.HemisphereLight(0xffffff, 0xccccc);
     scene.add(ambient);
 
     const light = new THREE.DirectionalLight(0xFFFFFF, 1);
