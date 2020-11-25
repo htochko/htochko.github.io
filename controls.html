@@ -11,7 +11,7 @@
         }
 
         #camera-btn{
-            display: none;
+            /*display: none;*/
             position: absolute;
             right: 20px;
             bottom: 20px;
@@ -76,7 +76,7 @@ function init(){
 
     const bodyGeometry =  new THREE.CylinderBufferGeometry(0.5, 0.3, 1.6, 20);
 
-    const material = new THREE.MeshStandardMaterial({color:0xEBC8B2});
+    const material = new THREE.MeshStandardMaterial({color:0xfe8d55});
     const body = new THREE.Mesh(bodyGeometry, material);
     body.position.y = 0.8;
     body.scale.z = 0.5;
@@ -86,7 +86,24 @@ function init(){
     const head = new THREE.Mesh(headGeometry,material);
     head.position.y=2.0;
     player.add(head);
+    addKeyboardControl();
     //Add cameras
+    cameras =[];
+    cameraIndex = 0;
+    const followCam = new THREE.Object3D();
+    followCam.position.copy(camera.position);
+    player.add(followCam);
+    cameras.push(followCam);
+
+    const frontCam = new THREE.Object3D();
+    frontCam.position.set(0,3,-8);
+    player.add(frontCam);
+    cameras.push(frontCam);
+
+    const overheadCam = new THREE.Object3D();
+    frontCam.position.set(0,20,0);
+   // player.add(overheadCam);
+    cameras.push(overheadCam);
 
 
     const btn = document.getElementById('camera-btn');
@@ -173,7 +190,7 @@ function update(){
 
     //Add camera lerping
 
-
+    camera.position.lerp(cameras[cameraIndex].getWorldPosition(new THREE.Vector3()), 0.05);
     const pos = player.position.clone();
     pos.y += 3;
     camera.lookAt(pos);
