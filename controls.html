@@ -71,8 +71,21 @@ function init(){
     scene.add( grid );
 
     //Add meshes here
+    player = new THREE.Group();
+    scene.add(player);
 
+    const bodyGeometry =  new THREE.CylinderBufferGeometry(0.5, 0.3, 1.6, 20);
 
+    const material = new THREE.MeshStandardMaterial({color:0xEBC8B2});
+    const body = new THREE.Mesh(bodyGeometry, material);
+    body.position.y = 0.8;
+    body.scale.z = 0.5;
+    player.add(body);
+
+    const headGeometry = new THREE.SphereBufferGeometry(0.3, 20, 15);
+    const head = new THREE.Mesh(headGeometry,material);
+    head.position.y=2.0;
+    player.add(head);
     //Add cameras
 
 
