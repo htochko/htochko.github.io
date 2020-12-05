@@ -33,9 +33,10 @@
 <a id="camera-btn"><div>
     <i class="fas fa-camera"></i>
 </div></a>
-<script>        var scene, camera, cameras, cameraIndex, renderer, controls, clock, player;
+<script>
+    var scene, camera, cameras, cameraIndex, renderer, controls, clock, player;
 
-init();
+    init();
 
 function init(){
     clock = new THREE.Clock();
@@ -67,24 +68,33 @@ function init(){
     plane.rotation.x = -Math.PI/2;
     scene.add(plane);
 
-    const grid = new THREE.GridHelper( 200, 80);
+    const grid = new THREE.GridHelper( 200, 200);
     scene.add( grid );
+    //LOAD GALLERY
+    const wallGeometry = new THREE.BoxGeometry( 0.4, 2, 1 );
+    const wallMaterial = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
+    const cube = new THREE.Mesh( wallGeometry, wallMaterial );
+    cube.position.y = 1;
+    cube.position.x = -40;
+    scene.add( cube );
+
+    //
 
     //Add meshes here
     player = new THREE.Group();
     scene.add(player);
 
-    const bodyGeometry =  new THREE.CylinderBufferGeometry(0.5, 0.3, 1.6, 20);
+    const bodyGeometry =  new THREE.CylinderBufferGeometry(0.6, 0.3, 1.4, 20);
 
     const material = new THREE.MeshStandardMaterial({color:0xfe8d55});
     const body = new THREE.Mesh(bodyGeometry, material);
-    body.position.y = 0.8;
+    body.position.y = 0.7;
     body.scale.z = 0.5;
     player.add(body);
 
-    const headGeometry = new THREE.SphereBufferGeometry(0.3, 20, 15);
+    const headGeometry = new THREE.SphereBufferGeometry(0.24, 20, 15);
     const head = new THREE.Mesh(headGeometry,material);
-    head.position.y=2.0;
+    head.position.y=1.68;
     player.add(head);
     addKeyboardControl();
     //Add cameras
