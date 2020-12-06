@@ -35,7 +35,7 @@
 </div></a>
 <script>
     var scene, camera, cameras, cameraIndex, renderer, controls, clock, player;
-
+    const assetPath = ('./pics/');
     init();
 
 function init(){
@@ -71,14 +71,24 @@ function init(){
     const grid = new THREE.GridHelper( 200, 200);
     scene.add( grid );
     //LOAD GALLERY
-    const wallGeometry = new THREE.BoxGeometry( 0.4, 2, 1 );
-    const wallMaterial = new THREE.MeshBasicMaterial( {color: 0x00ff00} );
+    const wallGeometry = new THREE.BoxGeometry( 0.4, 4, 6 );
+    const wallMaterial = new THREE.MeshBasicMaterial( {color: 0x000000} );
     const cube = new THREE.Mesh( wallGeometry, wallMaterial );
     cube.position.y = 1;
     cube.position.x = -40;
     scene.add( cube );
+    // Add chair
 
-    //
+    // Image
+    const imgTexture = new THREE.TextureLoader().setPath(assetPath).load('akso.jpg');
+    const img = new THREE.MeshBasicMaterial({ map: imgTexture});
+    const masterpiece = new THREE.Mesh(new THREE.PlaneGeometry(20, 20), img);
+    masterpiece.overdraw = true;
+    masterpiece.position.y = 1;
+    masterpiece.position.x = -40;
+    masterpiece.position.z = -20;
+    masterpiece.rotateOnAxis(new THREE.Vector3(0,0.5,0),90);
+    scene.add(masterpiece);
 
     //Add meshes here
     player = new THREE.Group();
