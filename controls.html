@@ -78,6 +78,43 @@ function init(){
     cube.position.x = -40;
     scene.add( cube );
     // Add chair
+    const chairTexture = new THREE.MeshStandardMaterial({color:0xffffff});
+    const chairLeg = new THREE.BoxBufferGeometry(0.02, 0.45, 0.03);
+    const chairSeat = new THREE.BoxBufferGeometry(0.45, 0.02, 0.45);
+    const chairBack = new THREE.BoxBufferGeometry(0.02, 0.45, 0.45);
+    const seat = new THREE.Mesh(chairSeat, chairTexture);
+    seat.position.y = 0.45;
+    const back = new THREE.Mesh(chairBack, chairTexture);
+    back.position.x = 0.225;
+    back.position.y = 0.675;
+    const leg4 = new THREE.Mesh(chairLeg, chairTexture);
+    leg4.position.y = 0.225;
+    leg4.position.x = 0.225;
+    leg4.position.z = 0.225;
+
+    const leg1 = new THREE.Mesh(chairLeg, chairTexture);
+    leg1.position.y = 0.225;
+    leg1.position.x = -0.225;
+    leg1.position.z = 0.225;
+    const leg2 = new THREE.Mesh(chairLeg, chairTexture);
+    leg2.position.y = 0.225;
+    leg2.position.z = -0.225;
+    leg2.position.x = -0.225;
+    const leg3 = new THREE.Mesh(chairLeg, chairTexture);
+    leg3.position.x = 0.225;
+    leg3.position.z = -0.225;
+    leg3.position.y = 0.225;
+
+    const aChair = new THREE.Group();
+    aChair.add(leg1);
+    aChair.add(leg2);
+    aChair.add(leg3);
+    aChair.add(leg4);
+    aChair.add(seat);
+    aChair.add(back);
+    scene.add(aChair);
+    aChair.position.z = 4;
+
 
     // Image
     const imgTexture = new THREE.TextureLoader().setPath(assetPath).load('akso.jpg');
