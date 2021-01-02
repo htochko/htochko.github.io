@@ -3,8 +3,10 @@
  <head>
      <title>2021 Calendar</title>
  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
- <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
- <script defer src="https://code.getmdl.io/1.2.1/material.min.js"></script>
+ <link rel="stylesheet" href="https://code.getmdl.io/1.3/code.getmdl.io/1.3.0/indigo-pink.min.css">
+     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+     <script defer src="https://code.getmdl.io/1.3.0/imagesloaded.min.js"></script>
+     <script defer src="https://unpkg.com/masonry-layout@latest/dist/masonry.pkgd.min.js"></script>
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="calendar 2021" content="pdf calendar for 2021">
  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -23,23 +25,33 @@
      <main class="mdl-layout__content">
          <div class="hto_title"
               style="font-size:2em; padding: 10px 10px 10px 40px;
-              background-color: #C1EEF4; color: #222222; font-family: Helvetica">HAPPY NEW YEAR</div>
+              background-color: #C1EEF4; color: #222222; font-family: Helvetica">2021 Calendar</div>
          <section title="calendar for 2021" class="mdl-grid mdl-grid--no-spacing" alignItems="stretch" style="padding:0px; margin: 0px">
-                 <div class="mdl-cell mdl-cell--4-col" style="padding:3em; background-color: transparent">
-                      <p>Keep smile and welcome New Year</p>
-                      <p>Warmest wishes</p>
-                      <p>on new amazing year </p>
-                      <p>On right is link to my handmade calendar</p>
-                      <p>Made with love and hope for better time will come shortly</p>
-                      <p>------></p>
-                 </div>
+             <ul class="mdc-image-list my-image-list">
+                 <li class="mdc-image-list__item">
+                     <div class="mdc-image-list__image-aspect-container">
+                         <img class="mdc-image-list__image" src="./pics/january.png" title="abstract image">
+                     </div>
+                     <div class="mdc-image-list__supporting">
+                         <span class="mdc-image-list__label">January - Studzen'</span>
+                     </div>
+                 </li>
+                 <li class="mdc-image-list__item">
+                     <div class="mdc-image-list__image-aspect-container">
+                         <img class="mdc-image-list__image" src="./pics/Feb21.png" title="abstract image for february">
+                     </div>
+                     <div class="mdc-image-list__supporting">
+                         <span class="mdc-image-list__label">February - Luty</span>
+                     </div>
+                 </li>
+             </ul>
                  <a class=" mdl-cell mdl-cell--8-col"
                       href="https://yadi.sk/i/UckIdGL65bnHZA"
                       title="Wall hanging calendar"
                       style="display: block;align-content: center; align-items: center;
                       margin: 0px;
                       background-color: transparent">
-                     <img src="pics/calendar_smp.png" title="the best belarusian calendar 2021" style="height: 400px; align-self: center" >
+                     <img src="./pics/calendar_smp.png" title="the best belarusian calendar 2021" style="height: 400px; align-self: center" >
                  </a>
          </section>
          <div class="mdl-layout__tab-panel" id="technology">
