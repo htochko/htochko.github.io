@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="60mm" height="60mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#99CCCC;stroke-width:11.99;stroke-miterlimit:22.9256}
+    .str2 {stroke:red;stroke-width:11.99;stroke-miterlimit:22.9256}
+    .str1 {stroke:white;stroke-width:11.99;stroke-miterlimit:22.9256}
+    .fil3 {fill:none}
+    .fil1 {fill:#99CCCC}
+    .fil2 {fill:red}
+    .fil0 {fill:white}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_0005">
+  <rect class="fil0 str0" x="18.53" y="5.99" width="981.2" height="1026.32"/>
+  <rect class="fil1 str1" x="18.53" y="5.99" width="981.2" height="222.75"/>
+  <rect class="fil2 str1" x="808.01" y="73.66" width="81.77" height="77.54"/>
+  <rect class="fil2 str1" x="107.35" y="75.78" width="81.77" height="77.54"/>
+  <path class="fil2 str1" d="M499.04 251.67l71.68 245.48 179.78 -83.84 -87.26 195.25 244.57 117.32 -277.59 21.61 19.04 217.68 -152.74 -155.86 -155.25 143.29 21.56 -205.12 -335.41 -4.01 302.39 -134.91 -114.91 -165.08 207.43 53.67 76.71 -245.48zm-4.44 493.88l40.04 -18.23 40.04 -18.23 9.89 -40.96 9.89 -40.96 -27.71 -32.85 -27.71 -32.85 -44.44 0 -44.44 0 -27.71 32.85 -27.7 32.85 9.89 40.96 9.89 40.96 40.04 18.23 40.04 18.23z"/>
+  <text>17</text>
+  <path class="fil3 str2" d="M21.35 434.57l87.41 -93.05 98.68 93.05 81.77 -84.59 109.96 84.59 84.59 -90.23 107.14 90.23 101.51 -95.86 112.78 95.86 95.87 -97.27 101.5 97.27 -2.82 597.75 -981.2 0 2.82 -597.75z"/>
+ </g>
+</svg>
