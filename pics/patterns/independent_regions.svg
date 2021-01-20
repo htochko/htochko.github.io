@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="60.1185mm" height="42.3737mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
-viewBox="0 0 3200 2800"
+viewBox="-1800 -800 7500 3800"
  xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
@@ -10,13 +10,15 @@ viewBox="0 0 3200 2800"
     .str1 {stroke:#000000;stroke-width:10;stroke-miterlimit:22}
     .fil0 {fill:none}
     .fil1 {fill:#000000}
+    .textT {font: bold 360px sans-serif;}
+    .textN {font: bold 280px sans-serif;}
    ]]>
   </style>
  </defs>
   <metadata id="IndependentRegions"/>
-  <text>Independent regions</text>
-  <text>1000 regions</text>
-  <text>Each region 2 to 10 million population</text>
+  <text x="-200" y="-500" class="textT">Independent regions</text>
+  <text x="-1450" y="550"  class="textN">1000 regions</text>
+  <text x="3100" y="450"  class="textN">Each region 2 to 10 million population</text>
   <path class="fil0 str0" d="M2209.91 2463.05c497.51,-7.72 1121.13,-426.6 1250.94,-841.69 204.1,-652.64 -452.35,-1369.37 -1065.62,-1536.64 -552.56,-150.71 -1025.58,-44.36 -1332.02,69.49 -177.64,65.99 -554.96,341.98 -721.99,501.93 -225.91,216.34 -363.6,468.56 -324.32,787.63 98.21,798.07 982.85,972.96 1621.59,972.96 0,-27.77 95.25,-15.44 123.55,-15.44"/>
   <path class="fil0 str1" d="M1851.78 77.97c1184.52,281.53 1644.75,1229.25 1019.28,2061.73"/>
   <path class="fil0 str1" d="M1851.78 77.97c788.72,281.53 1263.68,1568.67 539.7,2216.18"/>
