@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="20.2169mm" height="10.5748mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="20mm" height="10.5748mm" version="1.0" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 21.08 11.03" xmlns:xlink="http://www.w3.org/1999/xlink">
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str0 {stroke:black;stroke-width:0.1;stroke-miterlimit:2}
+    .str0 {stroke:black;stroke-width:0.1;stroke-miterlimit:2}             <p>p</p>
     .fil1 {fill:none}
     .fil0 {fill:white}
    ]]>
