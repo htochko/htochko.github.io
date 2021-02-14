@@ -2,8 +2,8 @@
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str0 {stroke:#99CCCC;stroke-width:11.99;stroke-miterlimit:22.9256}
-    .str2 {stroke:red;stroke-width:11.99;stroke-miterlimit:22.9256}
+    .str0 {stroke:#99CCCC;stroke-width:11.99;stroke-miterlimit:20}
+    .str2 {stroke:red;stroke-width:11.99;stroke-miterlimit:20}
     .str1 {stroke:white;stroke-width:11.99;stroke-miterlimit:22.9256}
     .fil3 {fill:none}
     .fil1 {fill:#99CCCC}
