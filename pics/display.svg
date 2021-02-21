@@ -4,9 +4,9 @@ viewBox="0 0 493.73 407.22"
  <defs>
   <style type="text/css">
    <![CDATA[
-    .str2 {stroke:black;stroke-width:0.38;stroke-miterlimit:22.9256}
-    .str0 {stroke:black;stroke-width:0.29;stroke-miterlimit:22.9256}
-    .str1 {stroke:white;stroke-width:0.29;stroke-miterlimit:22.9256}
+    .str2 {stroke:black;stroke-width:0.38;stroke-miterlimit:20}
+    .str0 {stroke:black;stroke-width:0.29;stroke-miterlimit:20}
+    .str1 {stroke:white;stroke-width:0.29;stroke-miterlimit:20}
     .fil1 {fill:black}
     .fil0 {fill:aqua}
     .fil2 {fill:white}
