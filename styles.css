@@ -3,6 +3,12 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.hto_icon:hover {
+     -webkit-filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+     filter: drop-shadow(12px 12px 7px rgba(0,0,0,0.5));
+}
+
 .mdl-demo .mdl-layout__header-row {
     padding-left: 40px;
 }
