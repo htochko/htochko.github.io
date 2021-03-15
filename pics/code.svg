@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="196px" height="161px" viewBox="0 0 196 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <desc>Programmer cv</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FCF8F8" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.793073),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="70.5102462%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.752671),rotate(41.126501),translate(-0.500000,-0.000000)" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#F8F8F8" offset="0%"></stop>
+            <stop stop-color="#F6F6F6" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="50%" cy="14.4569148%" fx="50%" fy="14.4569148%" r="85.5430852%" gradientTransform="translate(0.500000,0.144569),scale(1.000000,0.990630),rotate(90.000000),translate(-0.500000,-0.144569)" id="radialGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#B4ACAC" offset="72.8056505%"></stop>
+            <stop stop-color="#D7D7D7" stop-opacity="0.338742463" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="programming" stroke-width="1.19">
+            <path d="M97.78,103.24 C44.11,103.24 0.59,93 0.59,80.37 C0.59,67.74 44.1,57.5 97.78,57.5 C151.46,57.5 194.97,67.74 194.97,80.37 C194.97,93 151.46,103.24 97.78,103.24 Z M97.78,101.26 C48.76,101.26 9.02,91.91 9.02,80.37 C9.02,68.83 48.76,59.48 97.78,59.48 C146.8,59.48 186.54,68.83 186.54,80.37 C186.54,91.91 146.8,101.26 97.78,101.26 L97.78,101.26 Z" id="Shape" stroke="#373535" fill="url(#linearGradient-1)"></path>
+            <path d="M115.9,94.33 C83.13,136.84 48.46,165.05 38.45,157.34 C28.45,149.63 46.9,108.91 79.67,66.4 C112.44,23.89 147.11,-4.32 157.12,3.39 C167.12,11.1 148.67,51.82 115.9,94.33 L115.9,94.33 Z M114.33,93.12 C84.4,131.95 52.73,157.71 43.6,150.67 C34.46,143.63 51.32,106.44 81.24,67.62 C111.17,28.79 142.84,3.03 151.97,10.07 C161.11,17.11 144.25,54.3 114.33,93.12 L114.33,93.12 Z" id="Shape" stroke="#373535" fill="url(#radialGradient-2)"></path>
+            <path d="M116.29,66.93 C147.83,110.36 165.12,151.58 154.9,159.01 C144.68,166.43 110.82,137.25 79.28,93.82 C47.74,50.39 30.45,9.17 40.67,1.74 C50.89,-5.68 84.75,23.5 116.29,66.93 L116.29,66.93 Z M114.69,68.1 C143.5,107.76 159.28,145.41 149.95,152.19 C140.61,158.97 109.69,132.31 80.89,92.65 C52.08,52.99 36.3,15.34 45.63,8.56 C54.97,1.78 85.89,28.44 114.69,68.1 L114.69,68.1 Z" id="Shape" stroke="#373535" fill="url(#radialGradient-3)"></path>
+            <ellipse id="Oval" stroke="#373535" fill="url(#radialGradient-4)" cx="97.78" cy="80.37" rx="19.03" ry="19.21"></ellipse>
+        </g>
+    </g>
+</svg>
