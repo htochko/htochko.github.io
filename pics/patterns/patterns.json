@@ -27,7 +27,8 @@
     "title_en":"Nine per cent parking"
   },{
     "id": 23,
-    "title":"Parallel roads"
+    "title":"Parallel roads",
+    "img":"/parallel_roads.svg"
   },
   {
     "id": 24,
@@ -87,7 +88,7 @@
     "title":"Row houses"
   },{
     "id":39,
-    "title":"housing hill"
+    "title":"Housing hill"
   },{
     "id":40,
     "title":"Old people everywhere"
