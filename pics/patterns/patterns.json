@@ -1,13 +1,77 @@
 { "patterns":[
   { "id": 1,
-    "title":"",
-    "title_ru":""
+    "title":"independent regions",
+    "title_ru":"независимые регионы"
   },
   {
     "id": 2,
-    "title":""
+    "title":"the distribution of towns",
+    "title_ru":"распределение городов"
 
   },{
+    "id": 3,
+    "title": "Agriculture vallys"
+
+  },{
+    "id": 4,
+    "title": "city country fingers"
+
+  },{
+    "id": 5,
+    "title": "lace of country streets"
+
+  },{
+    "id": 6,
+    "title": "country towns"
+
+  },{
+    "id": 7,
+    "title": "the countryside"
+
+  },
+  {
+    "id": 8,
+    "title": "mosaic of subcultures"
+
+  },{
+    "id": 9,
+    "title": "scattered work"
+
+  }, {
+    "id": 10,
+    "title": "magic of city"
+
+  }, {
+    "id": 11,
+    "title": "local transport areas"
+
+  }, {
+    "id": 12,
+    "title": "community of 7000"
+
+  }, {
+    "id": 13,
+    "title": ""
+
+  }, {
+    "id": 14,
+    "title": ""
+
+  }, {
+    "id": 15,
+    "title": ""
+
+  }, {
+    "id": 16,
+    "title": ""
+
+  }, {
+    "id": 17,
+    "title": ""
+
+  },
+
+  {
     "id": 18,
     "title": "network of learning"
 
