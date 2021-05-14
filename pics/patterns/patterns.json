@@ -668,97 +668,98 @@
     "title":""
   },{
     "id":209,
-    "title":""
+    "title":"Roof layout"
   },{
     "id":210,
-    "title":""
+    "title":"Floor and ceiling layout"
   },{
     "id":211,
-    "title":""
+    "title":"Thickening the outer walls"
   },{
     "id":212,
-    "title":""
+    "title":"Columns at the corners"
   },{
     "id":213,
-    "title":""
+    "title":"Final column distribution"
   },{
     "id":214,
-    "title":""
+    "title":"Root foundations"
   },{
     "id":215,
-    "title":""
+    "title":"Ground floor slab"
   },{
     "id":216,
-    "title":""
+    "title":"Box columns"
   },{
     "id":217,
-    "title":""
+    "title":"Perimeter beam"
   },{
     "id":218,
-    "title":""
+    "title":"Wall membrane"
   },{
     "id":219,
-    "title":""
+    "title":"Floor-ceiling vaults"
   },{
     "id":220,
-    "title":""
+    "title":"Roof vaults"
   },{
     "id":221,
-    "title":""
+    "title":"Natural doors and windows"
   },{
     "id":222,
-    "title":""
+    "title":"Low steel"
   },{
     "id":223,
-    "title":""
+    "title":"Deep reveals"
   },{
     "id":224,
-    "title":""
+    "title":"Low doorways"
   },{
     "id":225,
-    "title":""
+    "title":"Frames as thickened edges"
   },{
     "id":226,
-    "title":""
+    "title":"Column place"
   },{
     "id":227,
-    "title":""
+    "title":"Column connections"
   },{
     "id":228,
-    "title":""
+    "title":"Stair vault"
   },{
     "id":229,
-    "title":""
+    "title":"Duct space"
   },{
     "id":230,
-    "title":""
+    "title":"Radiant heat"
   },{
     "id":231,
-    "title":""
+    "title":"Dormer windows"
   },{
     "id":232,
-    "title":""
+    "title":"Roof caps"
   },{
     "id":233,
-    "title":""
+    "title":"Floor surface"
   },{
     "id":234,
-    "title":""
+    "title":"Lapped outside walls"
   },{
     "id":235,
-    "title":""
+    "title":"Soft inside walls"
   },{
     "id":236,
-    "title":""
+    "title":"Windows which opens wide",
+    "title_ru":"Широко открывающиеся окна"
   },{
     "id":237,
-    "title":""
+    "title":"Solid doors with glass"
   },{
     "id":238,
-    "title":""
+    "title":"Filtered light"
   },{
     "id":239,
-    "title":""
+    "title":"Small panes"
   },{
     "id":240,
     "title":""
