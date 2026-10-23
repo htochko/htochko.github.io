@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "three": "^0.160.0",
-    "deck.gl": "^8.9.0",
+    "deck.gl": "^9.4.0",
     "mapbox-gl": "^3.0.0"
   }
 }
